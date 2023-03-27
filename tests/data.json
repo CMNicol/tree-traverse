@@ -1,0 +1,77 @@
+[
+    {
+        "name": "SuperM",
+        "children": [
+            "M2",
+            "M4"
+        ]
+    },
+    {
+        "name": "M1",
+        "parents": [
+            "M4"
+        ],
+        "children": [
+            "A4"
+        ]
+    },
+    {
+        "name": "M2",
+        "children": [
+            "A2",
+            "A3"
+        ],
+        "parents": [
+            "SuperM"
+        ]
+    },
+    {
+        "name": "M4",
+        "children": [
+            "A1",
+            "A3",
+            "M1"
+        ],
+        "parents": [
+            "SuperM"
+        ]
+    },
+    {
+        "name": "A1",
+        "properties": {
+            "some": "property"
+        },
+        "parents": [
+            "M4",
+            "M1"
+        ]
+    },
+    {
+        "name": "A2",
+        "properties": {
+            "some": "property"
+        },
+        "parents": [
+            "M2"
+        ]
+    },
+    {
+        "name": "A3",
+        "properties": {
+            "some": "property"
+        },
+        "parents": [
+            "M2",
+            "M4"
+        ]
+    },
+    {
+        "name": "A4",
+        "properties": {
+            "some": "property"
+        },
+        "parents": [
+            "M1"
+        ]
+    }
+]
